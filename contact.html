@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Common styles for all pages */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3e6ff;
+      }
+
+      /* Styles for the header and menu */
+      header {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 20px;
+        background-color: #f0e3a2;
+        border-radius: 10px
+      }
+
+      @font-face {
+        font-family: 'Fredoka One';
+        src: url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');      }
+
+      header h1 {
+        margin: 0;
+        color: #b28459;
+        font-family: 'Fredoka One', cursive;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+      }
+
+      .menu a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f6ffb3;;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      /* Styles for the contact page content */
+      .content {
+        padding: 20px;
+        text-align: center;
+      }
+
+      form {
+        background-color: #ffc2b3;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      input[type="text"], input[type="email"], textarea {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        background-color: #ffea7e;
+        color: #333;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>beeflats</h1>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects/Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="content">
+      <h2>Contact Me</h2>
+      <form action="">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
